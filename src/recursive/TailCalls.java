@@ -2,8 +2,6 @@ package recursive;
 
 public class TailCalls {
 
-
-
 	public static <T> TailCall<T> call (final TailCall<T> nextCall) {
 		return nextCall;
 	}
