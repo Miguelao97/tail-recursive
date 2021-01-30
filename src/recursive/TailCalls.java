@@ -21,7 +21,7 @@ public class TailCalls {
 			}
 
 			@Override
-			public TailCall apply() {
+			public TailCall<T> apply() {
 				throw new Error("Not implemented...");
 			}
 		};
